@@ -1,0 +1,68 @@
+{
+  "name": "firestore-tson-sdk",
+  "version": "1.0.0",
+  "description": "Complete Bi-directional Firebase Cloud Firestore <-> TSON (Token-Structured Object Notation) converter & query payload generator SDK for LLMs & AI Agents. Supports Firebase JS SDK v9/v10, Firebase Admin SDK, Timestamps, GeoPoints, and DocumentReferences.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "SAVINGS_TRACKER.json"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx scripts/demo.ts",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "google-cloud-firestore",
+    "querysnapshot",
+    "documentsnapshot",
+    "timestamp",
+    "geopoint",
+    "tson",
+    "llm",
+    "rag",
+    "structured-output",
+    "bi-directional",
+    "token-optimization",
+    "ai-agent",
+    "gemini",
+    "openai",
+    "claude"
+  ],
+  "author": {
+    "name": "Abhi Asok",
+    "email": "abhiasok@rocketmail.com",
+    "url": "https://www.linkedin.com/in/abhi-asok-09439788/"
+  },
+  "contact": {
+    "phone": "+91 9142125724",
+    "email": "abhiasok@rocketmail.com",
+    "linkedin": "https://www.linkedin.com/in/abhi-asok-09439788/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhiArvension/firestore-tson-sdk.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsup": "^8.3.6",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}

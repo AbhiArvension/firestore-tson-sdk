@@ -1,0 +1,28 @@
+{
+  "totalConversions": 2,
+  "totalJsonChars": 401,
+  "totalTsonChars": 412,
+  "totalJsonTokens": 101,
+  "totalTsonTokens": 104,
+  "totalSavedTokens": 41,
+  "overallSavingsPercentage": -2.74,
+  "lastUpdated": "2026-08-27T11:49:18.381Z",
+  "history": [
+    {
+      "timestamp": "2026-08-27T11:49:18.381Z",
+      "jsonTokens": 84,
+      "tsonTokens": 43,
+      "savedTokens": 41,
+      "savingsPercentage": 49.4,
+      "docCount": 2
+    },
+    {
+      "timestamp": "2026-08-27T11:49:18.379Z",
+      "jsonTokens": 17,
+      "tsonTokens": 61,
+      "savedTokens": 0,
+      "savingsPercentage": -262.69,
+      "docCount": 2
+    }
+  ]
+}
